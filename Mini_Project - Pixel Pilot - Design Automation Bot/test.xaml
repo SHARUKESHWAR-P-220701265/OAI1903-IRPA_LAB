@@ -1,0 +1,153 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="860.0000000000001,933.5999999999999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Green Simple Highlighted Text Instagram Quote Post - Instagram Post - Canva" sap:VirtualizedContainerService.HintSize="449.6,910.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c7ce9631-93b4-4d61-965d-d8fc686deda2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,670.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="s" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'grouping'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="c7ce9631-93b4-4d61-965d-d8fc686deda2" TextString="[s]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable CvTextArea="865, 494, 240, 91" CvType="AnyWordGroup" DesignTimeRectangle="590, 364, 797, 381" DesignTimeScaleFactor="1.25" FriendlyName="'grouping'" FullSelectorArgument="&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Canvas' role='grouping' /&gt;&lt;ctrl idx='74' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Canvas' role='grouping' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="02a38472-7f15-4dcc-89b9-0aef59e1806e" InformativeScreenshot="844f7aea3b4753af5e87220684a67944.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' /&gt;" SearchSteps="FuzzySelector, CV" SelectionStrategy="AA" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="647, 469, 134, 134" FriendlyName="'grouping'" FullSelectorArgument="&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Canvas' role='grouping' /&gt;&lt;ctrl idx='76' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Green Simple Highlighted Text Instagram Quote Post - Instagram P*' role='document' /&gt;&lt;ctrl name='Canvas' role='grouping' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'DIV'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="c7ce9631-93b4-4d61-965d-d8fc686deda2" Text="[s]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.canva.com/design/DAGW1O8mDTM/GrNNvkeQm458i2M9MhmxAA/edit?embeddedPage=home&amp;appNavState=open" DesignTimeRectangle="779, 588, 435, 177" DesignTimeScaleFactor="0.9375" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl src='https://www.canva.com/design/DAGW1O8mDTM/GrNNvkeQm458i2M9MhmxAA/*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' isleaf='1' parentid=':r0:0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://www.canva.com/design/DAGW1O8mDTM/GrNNvkeQm458i2M9MhmxAA/*' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' parentid=':r0:0' tag='DIV' class='bFnJ2A _7vS1Yw _682gpw' aaname='' /&gt;" Guid="dfe1681a-c1a9-44a9-90ab-bc2cda4906ac" InformativeScreenshot="8d90cac2d329da7ae307f605173e7423.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Green Simple Highlighted Text Instagram Quote Post - Instagram Post - Canva' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="797, 649, 63, 63" CvType="Icon" DesignTimeRectangle="795, 647, 67, 67" ElementType="Icon" FriendlyName="'chrome.exe Green'" ImageBase64="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" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[s]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="0a5ac6a8e15c2c6457e2b31eb5d84a35.jpg" Selector="&lt;html app='chrome.exe' title='Green Simple Highlighted Text Instagram Quote Post - Instagram Post - Canva' /&gt;" Title="Green Simple Highlighted Text Instagram Quote Post - Instagram Post" Url="https://www.canva.com/design/DAGW1O8mDTM/GrNNvkeQm458i2M9MhmxAA/edit" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
